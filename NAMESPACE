@@ -1,0 +1,59 @@
+import(RDCOMClient)
+
+exportClasses(
+    'IApplicationGE',
+   'ICameraInfoGE',
+   'IViewExtentsGE',
+   'IFeatureGE',
+   'IFeatureCollectionGE',
+   'ITimeIntervalGE',
+   'ITimeGE',
+   'IPointOnTerrainGE',
+   'ITourControllerGE',
+   'ISearchControllerGE',
+   'IAnimationControllerGE',
+   'IKHInterface',
+   'IKHViewInfo',
+   'IKHViewExtents',
+   'IKHFeature',
+   'AltitudeModeGE',
+   'OLE_HANDLE',
+   'AppTypeGE',
+   'TimeTypeGE',
+   'appType'   )
+
+
+exportClasses(
+    '__MIDL___MIDL_itf_earthcom_0000_0001',
+   '__MIDL_ITimeGE_0002',
+   '__MIDL_IApplicationGE_0001',
+   '__MIDL_IKHInterface_0001'   )
+
+
+export(
+    'RelativeToGroundAltitudeGE',
+   'AbsoluteAltitudeGE',
+   'TimeNegativeInfinityGE',
+   'TimeFiniteGE',
+   'TimePositiveInfinityGE',
+   'EnterpriseClientGE',
+   'ProGE',
+   'PlusGE',
+   'FreeGE',
+   'UnknownGE',
+   'GE_EC',
+   'GE_Pro',
+   'GE_Plus',
+   'GE_LT',
+   'GE_NV',
+   'GE_Free',
+   'UNKNOWN',
+   '__MIDL___MIDL_itf_earthcom_0000_0001Enum',
+   '__MIDL_ITimeGE_0002Enum',
+   '__MIDL_IApplicationGE_0001Enum',
+   '__MIDL_IKHInterface_0001Enum'   )
+
+
+
+
+exportMethods('names', '$', '$<-', '[[', '[[<-', 'coerce')
